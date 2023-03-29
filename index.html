@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 
-<head>
+<!-- <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,8 +15,64 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head> -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="style.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 
+<body class="body">
+
+
+  <form class="js-form">
+    <fieldset class="form__fieldset">
+      <legend class="form__legend">Przelicznik walut
+      </legend>
+      <p>
+        <label>
+          <span class="form__labelText">
+            Kwota w zł*:
+          </span>
+          <input type="number" class="js-amount" min="0.01" step="0.01" required>
+        </label>
+      </p>
+      <p>
+        <label>
+          <span class="form__labelText">
+            Waluta:
+          </span>
+          <select name="currency" class="js-currency">
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+            <option value="NOK">NOK</option>
+          </select>
+        </label>
+      </p>
+      <p>
+        <button class="form__button">PRZELICZ</button>
+      </p>
+      <p class="js-result form__result">
+    </fieldset>
+    </p>
+  </form>
+
+</body>
+<!-- 
 <body class="body">
   <header>
     <h1 class="form__header">Przelicznik walut</h1>
@@ -45,4 +101,4 @@
    <p class ="js-result form__result">     </p>
   </form>
   
-</body>
+</body> -->
