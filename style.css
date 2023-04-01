@@ -37,6 +37,7 @@ html {
 
 .form__fieldset {
   margin: 20px 0;
+  background-color: white;
 }
 
 .form__result {
