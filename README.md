@@ -3,7 +3,7 @@
 
 ![Main view](./docs/main%20view.png)
 
-####Features
+#### Features
 1. HTML
 2. CSS
 3. Javascript
