@@ -24,13 +24,13 @@
     }
 
     const updateResultText = (result) => {
-        const resultElement = document.querySelector(".js-result")
-        resultElement.innerHTML = result.toFixed(2)
+        const resultElement = document.querySelector(".js-result");
+        resultElement.innerHTML = result.toFixed(2);
     }
 
     const onFormSubmit = (event) => {
-        const amountElement = document.querySelector(".js-amount")
-        const currencyElement = document.querySelector(".js-currency")
+        const amountElement = document.querySelector(".js-amount");
+        const currencyElement = document.querySelector(".js-currency");
 
         event.preventDefault();
 
@@ -43,7 +43,7 @@
     }
     
     const init = () => {
-        const formElement = document.querySelector(".js-form")
+        const formElement = document.querySelector(".js-form");
 
         formElement.addEventListener("submit", onFormSubmit);
 
