@@ -1,7 +1,7 @@
 # Currency converter
 ### https://blankapalucka.github.io/currency-converter/
 
-![Main view](./docs/main%20view.png)
+![Main view](./docs/main%20view.jpg)
 
 #### Features
 1. HTML
