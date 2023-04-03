@@ -14,7 +14,7 @@ html {
 }
 
 .form__legend {
-  background-color: #9D646E;
+  background-color:#097969;
   text-align: center;
   color: white;
   margin: 20px 0;
@@ -23,7 +23,7 @@ html {
 }
 
 .form__button {
-  background-color: #9D646E;
+  background-color: #097969;
   border: none;
   color: white;
   width: 100%;
